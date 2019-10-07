@@ -6,6 +6,7 @@
     alert(' Nice to meet you :' + name);
     console.log('name', name);
 
+    
 var Like ;
 
 ///////////////////////// First Question ////////////////////
@@ -113,26 +114,5 @@ if (Like == 'YES') {
     alert('Wrong Answer !');
 }
 */
-/*
-////////////////////////// Function Greeting //////////////////////////////
-function createGreeting() {
-    // input
-    //var today = new Date();
-    var hournow = prompt(" Please enter what is the time now : ");
-    //var hourNow = today.getHours();
-    var greeting;
-    // processing:
-    if (hournow > 18) {
-        greeting = 'Good evening, Mam/Sir!';
-    } else if (hournow >= 12) {
-        greeting = 'Good afternoon, Mam/Sir!';
-    } else if (hournow >= 0) {
-        greeting = 'Good morning!';
-    } else {
-        greeting = 'Welcome!';
-    }
-    //output:
-    return greeting;
-}*/
 
 

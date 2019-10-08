@@ -8,6 +8,7 @@ console.log('name', name);
 
 
 var like;
+var mark = 0;  /// to store the user mark 
 
 ///////////////////////// First Question ////////////////////
 
@@ -17,6 +18,8 @@ like = like.toUpperCase();
 
 if (like == 'YES' || like == 'Y') {
     alert('Very Nice');
+    mark = mark + 1;
+
 } else if (like == 'NO' || like == 'N') {
     alert('Soo saaad !');
 } else {
@@ -33,8 +36,10 @@ like = like.toLowerCase();
 
 if (like == 'yes') {
     alert(' ooooh , i hope to meet him/her right away');
+    mark = mark + 1;
 } else if (like == 'y') {
     alert(' ooooh , i hope to meet him/her right away');
+    mark = mark + 1;
 } else if (like == 'no') {
     alert(' why not ?');
 } else if (like == 'n') {
@@ -50,8 +55,10 @@ like = like.toUpperCase();
 
 if (like == 'YES') {
     alert('why you do that :(');
+    mark = mark + 1;
 } else if (like == 'Y') {
     alert('why you do that :(');
+    mark = mark + 1;
 } else if (like == 'NO') {
     alert(' be calm and kind ');
 } else if (like == 'N') {
@@ -68,8 +75,10 @@ like = like.toLowerCase();
 
 if (like == 'yes') {
     alert('God bless you ');
+    mark = mark + 1;
 } else if (like == 'y') {
     alert('God bless you ');
+    mark = mark + 1;
 } else if (like == 'no') {
     alert(' Think again ');
 } else if (like == 'n') {
@@ -88,6 +97,7 @@ switch (like) {
     case 'YES':
     case 'Y':
         alert(' I\'m sorry for your lost'); /// scape 
+        mark = mark + 1;
         break;
 
     case 'NO':
@@ -107,6 +117,7 @@ var mybdmo = 2 ;
 if (like == mybdmo)
 {
     alert(' ooh my god , you do it and know my birthday ');
+    mark = mark + 1;
 }else
 { 
 
@@ -126,6 +137,7 @@ for ( var i=0;i<4;i++)
     else if (like == mybdmo)
     {
         alert(' ooh my god , you do it and know my birthday ');
+        mark = mark + 1;
         i = 4 ;
     }else    
     {
@@ -137,7 +149,6 @@ for ( var i=0;i<4;i++)
 
 ////////////////////////// 7th Question /////////////////////
 
-var mark = 0;  /// to store the user mark 
 
 var num = prompt(' Hello , You Have Six attempts to guess 6 Primes Numbers ');
 var geussgame = [2, 5, 11, 17, 23, 31];  ////  prime numbers between ( 2 - 31 )

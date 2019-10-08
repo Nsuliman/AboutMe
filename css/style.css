@@ -6,8 +6,9 @@
             text-size-adjust: opera 42;
         }
         h1 {
-            padding: 50px;
+            padding: 20px;
             text-align: center;
+            background-color: olivedrab;
         }
 
         h2 {
@@ -34,13 +35,17 @@
 
         }
         p {
-            padding: 35px;
+            padding: 10px;
             text-align: left;
+            color: blue;
+            background-color:pink ;
         }
 
         pre{
-            padding: 35px;
+            padding: 20px;
             text-align: left;
+            color: navy;
+            background-color: pink;
         }
 
         footer {
@@ -49,9 +54,10 @@
             text-align: center;
             padding: 20px;
         }
-/* ul li {
+        ol {
 
-    display : list-item;
-    list-style-position: inside ;
-    
-} */
+            color: navy;
+        
+
+        }
+

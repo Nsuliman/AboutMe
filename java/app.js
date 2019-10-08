@@ -141,19 +141,19 @@ var mark = 0;  /// to store the user mark
 
 var num = prompt(' Hello , You Have Six attempts to guess 6 Primes Numbers ');
 var geussgame = [2, 5, 11, 17, 23, 31];  ////  prime numbers between ( 2 - 31 )
-var strtonum =  parseInt(num);
+
+// var strtonum =  parseInt(num);
 
 for (var i = 1; i <= geussgame.length; i++) {
     var temp = 6 - i;
-
     
-    switch (strtonum) {
-        case 2:
-        case 5:
-        case 11:
-        case 17:
-        case 23:
-        case 31:
+    switch (num) {
+        case '2' :
+        case '5' :
+        case '11' :
+        case '17' :
+        case '23' :
+        case '31' :
             alert(' Well Done , keeping Guessing' + '  ' + temp + ' attempts left ');
             mark = mark + 1;
             num = prompt(' Hello , You Have Six attempts to guess 6 Primes Numbers ');

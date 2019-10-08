@@ -8,7 +8,7 @@ console.log('name', name);
 
 
 var like;
-/*
+
 ///////////////////////// First Question ////////////////////
 
 like = prompt(" Do you have any pets?");
@@ -134,14 +134,13 @@ for ( var i=0;i<4;i++)
 }
 }
 
-*/
+
 ////////////////////////// 7th Question /////////////////////
 
-var num = prompt(' Hello , You Have Six attempts to guess 6 Primes Numbers ');
-
-var geussgame = [2, 5, 11, 17, 23, 31];  ////  prime numbers between ( 2 - 31 )
 var mark = 0;  /// to store the user mark 
 
+var num = prompt(' Hello , You Have Six attempts to guess 6 Primes Numbers ');
+var geussgame = [2, 5, 11, 17, 23, 31];  ////  prime numbers between ( 2 - 31 )
 var strtonum =  parseInt(num);
 
 for (var i = 1; i <= geussgame.length; i++) {

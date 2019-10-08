@@ -178,7 +178,7 @@ for (var i = 1; i <= geussgame.length; i++) {
     }
     alert('Your mark   : ' + mark);
 }
-document.write(geussgame);
+document.write(' The primes numbers are :    ' + geussgame);
 alert(' My primes number :   = ' + geussgame);
 alert(' Your Final mark is :    ' + mark);
 

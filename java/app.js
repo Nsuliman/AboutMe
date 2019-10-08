@@ -7,21 +7,17 @@
     console.log('name', name);
 
     
-var Like ;
+var like ;
 
 ///////////////////////// First Question ////////////////////
 
- Like = prompt(" Do you have any pets?");
+ like = prompt(" Do you have any pets?");
 
-Like = Like.toUpperCase();
+like = like.toUpperCase();
 
-if (Like == 'YES') {
+if (like == 'YES' || like == 'Y') {
     alert('Very Nice');
-} else if (Like == 'Y') {
-    alert('Very Nice');
-} else if (Like == 'NO') {
-    alert('Soo saaad !');
-} else if (Like == 'N'){
+} else if (like == 'NO' || like == 'N') {
     alert('Soo saaad !');
 } else {
     alert('Wrong Answer !');
@@ -29,34 +25,34 @@ if (Like == 'YES') {
 
 
 ///////////////////////// Second Question ////////////////////
- Like = prompt(" Is there one person you want to be with right now?");
+ like = prompt(" Is there one person you want to be with right now?");
 
-Like = Like.toLowerCase();
+like = like.toLowerCase();
 
-if (Like == 'yes') {
+if (like == 'yes') {
     alert(' ooooh , i hope to meet him/her right away');
-} else if (Like == 'y') {
+} else if (like == 'y') {
     alert(' ooooh , i hope to meet him/her right away');
-} else if (Like == 'no') {
+} else if (like == 'no') {
     alert(' why not ?');
-} else if (Like == 'n'){
+} else if (like == 'n'){
     alert(' why not ?');
 } else {
     alert('Wrong Answer !');
 }
 
 ///////////////////////// Third Question ////////////////////
- Like = prompt(" Do you have a crush on someone?");
+ like = prompt(" Do you have a crush on someone?");
 
-Like = Like.toUpperCase();
+like = like.toUpperCase();
 
-if (Like == 'YES') {
+if (like == 'YES') {
     alert('why you do that :(');
-} else if (Like == 'Y') {
+} else if (like == 'Y') {
     alert('why you do that :(');
-} else if (Like == 'NO') {
+} else if (like == 'NO') {
     alert(' be calm and kind ');
-} else if (Like == 'N'){
+} else if (like == 'N'){
     alert(' be calm and kind ');
 } else {
     alert('Wrong Answer !');
@@ -64,17 +60,17 @@ if (Like == 'YES') {
 
 
 ///////////////////////// Fourth Question ////////////////////
- Like = prompt(" Do you believe in Miracles ?");
+ like = prompt(" Do you believe in Miracles ?");
 
-Like = Like.toLowerCase();
+like = like.toLowerCase();
 
-if (Like == 'yes') {
+if (like == 'yes') {
     alert('God bless you ');
-} else if (Like == 'y') {
+} else if (like == 'y') {
     alert('God bless you ');
-} else if (Like == 'no') {
+} else if (like == 'no') {
     alert(' Think again ');
-} else if (Like == 'n'){
+} else if (like == 'n'){
     alert(' Think again ');
 } else {
     alert('Wrong Answer !');
@@ -82,11 +78,11 @@ if (Like == 'yes') {
 
 
 ///////////////////////// Fifth Question ////////////////////
- Like = prompt(" Have you ever lost someone special ?");
+ like = prompt(" Have you ever lost someone special ?");
 
-Like = Like.toUpperCase();
+like = like.toUpperCase();
 
-switch (Like) {
+switch (like) {
     case 'YES':
     case 'Y':
         alert(' I\'m sorry for your lost'); /// scape 
@@ -94,7 +90,7 @@ switch (Like) {
 
     case 'NO':
     case 'N':
-        alert(' I hope not to loose  ');
+        alert(' I hope not to lose  ');
         break;
 
     default:
@@ -107,9 +103,9 @@ if (Like == 'YES') {
 } else if (Like == 'Y') {
     alert(' I\'m sorry for your lost'); /// scape
 } else if (Like == 'NO') {
-    alert(' I hope not to loose  ');
+    alert(' I hope not to lose  ');
 } else if (Like == 'N'){
-    alert(' I hope not to loose  ');
+    alert(' I hope not to lose  ');
 } else {
     alert('Wrong Answer !');
 }

@@ -19,6 +19,8 @@ like = like.toUpperCase();
 if (like == 'YES' || like == 'Y') {
     alert('Very Nice');
     mark = mark + 1;
+    alert('Your mark   : ' + mark);
+
 
 } else if (like == 'NO' || like == 'N') {
     alert('Soo saaad !');
@@ -37,9 +39,13 @@ like = like.toLowerCase();
 if (like == 'yes') {
     alert(' ooooh , i hope to meet him/her right away');
     mark = mark + 1;
+    alert('Your mark   : ' + mark);
+
 } else if (like == 'y') {
     alert(' ooooh , i hope to meet him/her right away');
     mark = mark + 1;
+    alert('Your mark   : ' + mark);
+
 } else if (like == 'no') {
     alert(' why not ?');
 } else if (like == 'n') {
@@ -56,9 +62,13 @@ like = like.toUpperCase();
 if (like == 'YES') {
     alert('why you do that :(');
     mark = mark + 1;
+    alert('Your mark   : ' + mark);
+
 } else if (like == 'Y') {
     alert('why you do that :(');
     mark = mark + 1;
+    alert('Your mark   : ' + mark);
+
 } else if (like == 'NO') {
     alert(' be calm and kind ');
 } else if (like == 'N') {
@@ -76,9 +86,13 @@ like = like.toLowerCase();
 if (like == 'yes') {
     alert('God bless you ');
     mark = mark + 1;
+    alert('Your mark   : ' + mark);
+
 } else if (like == 'y') {
     alert('God bless you ');
     mark = mark + 1;
+    alert('Your mark   : ' + mark);
+
 } else if (like == 'no') {
     alert(' Think again ');
 } else if (like == 'n') {
@@ -98,6 +112,8 @@ switch (like) {
     case 'Y':
         alert(' I\'m sorry for your lost'); /// scape 
         mark = mark + 1;
+        alert('Your mark   : ' + mark);
+
         break;
 
     case 'NO':
@@ -118,6 +134,8 @@ if (like == mybdmo)
 {
     alert(' ooh my god , you do it and know my birthday ');
     mark = mark + 1;
+    alert('Your mark   : ' + mark);
+
 }else
 { 
 
@@ -138,6 +156,7 @@ for ( var i=0;i<4;i++)
     {
         alert(' ooh my god , you do it and know my birthday ');
         mark = mark + 1;
+        alert('Your mark   : ' + mark);
         i = 4 ;
     }else    
     {
@@ -167,6 +186,7 @@ for (var i = 1; i <= geussgame.length; i++) {
         case '31' :
             alert(' Well Done , keeping Guessing' + '  ' + temp + ' attempts left ');
             mark = mark + 1;
+            alert('Your mark   : ' + mark);
             num = prompt(' Hello , You Have Six attempts to guess 6 Primes Numbers ');
             break;
 

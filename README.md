@@ -208,7 +208,7 @@ alert('your score is'+ score);
 q7('nasa');
 
 
-# On Naseem code  I was the observer and the changes as below : 
+# On Naseem code  I was the driver and the changes as below : 
 
 'use strict';
 

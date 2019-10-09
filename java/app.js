@@ -1,7 +1,7 @@
 'use strict';
 
 
-/*
+
 //////////////// Greeting ////////////////////////
 
 var name = prompt('Hello , what is your name ? ');
@@ -15,8 +15,9 @@ var mark = 0;  /// to store the user mark
 var CorrectAnswer ;
 var wrongAnswer ;
 var Question ;
-/*
 
+
+////////////////////// 5 questions /////////////////////////
 function AllQuestion( Question , CorrectAnswer, WrongAnswer) {
     
     var Reply = prompt(Question);
@@ -85,7 +86,7 @@ for ( var i=0;i<4;i++)
 
 }  // end of the function 
 
-*/
+
 ////////////////////////// 7th Question /////////////////////
 function question7(){
     var num = prompt(' Hello , You Have Six attempts to guess 6 Primes Numbers between 2-31 ');
@@ -341,6 +342,7 @@ switch (like) {
 }
 */
 
+/*
 ////////////////////////////////// Pair Programming ////////////////////////
 
 
@@ -545,3 +547,4 @@ document.write(' The primes numbers are :    ' + geussgame);
 alert(' My primes number :   = ' + geussgame);
 alert(' Your Final mark is :    ' + mark);
 
+*/

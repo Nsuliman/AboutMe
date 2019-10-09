@@ -305,7 +305,6 @@ document.write(' The primes numbers are :    ' + geussgame);
 alert(' My primes number :   = ' + geussgame);
 alert(' Your Final mark is :    ' + mark);*/
 
-*/
 ///////////////////////////// Array //////////////////////////
 /*
 var prompts = [" Do you have any pets?"];

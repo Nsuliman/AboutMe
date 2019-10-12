@@ -1,63 +1,160 @@
-        header {
-            background-color: lightblue;
-            padding: 15px;
+        
+        /* The image */
+        img {
+            float: right;
+            left: 10px;
+            border: 3px solid rgb(19, 120, 214);
+            padding: 5px;
             text-align: center;
-            color: navy;
-            text-size-adjust: opera 42;
         }
+
+        /* all Body  */
+        body{
+
+            backface-visibility: visible;
+            background-color: lightskyblue;
+        }
+        
+        /* user name  */
+        header {
+            position: sticky; 
+            top: 0px;
+            left: 0px;
+            margin: 0px; 
+            padding: 20px; 
+            width: 96%; 
+            background-color:#50d07d; 
+            color: navy;
+            font-size: x-large;
+            text-align: center;
+            border: 3px solid rgb(5, 131, 11);
+            border-radius: 15px;
+        }
+
+        /* My Name */
         h1 {
             padding: 20px;
             text-align: center;
-            background-color: olivedrab;
+            background-color: rgb(184, 14, 99);
+            border: 3px solid rgb(216, 58, 163);
+            width: 96%;
+            color: honeydew;
+            border-radius: 5px;
         }
 
-        h2 {
-            padding: 20px;
-            text-align: left;
-            color: navy;
-            background-color: pink;
-
-        }
-
-
-        h3 {
-            padding: 20px;
-            text-align: left;
-            color: navy;
-            background-color: yellowgreen;
-
-        }
-
-        h4 {
-            text-align: left;
-            color: navy;
-            background-color: yellow;
-
-        }
-        p {
-            padding: 10px;
-            text-align: left;
-            color: blue;
-            background-color:pink ;
-        }
-
+        /* Personal data  */
         pre{
             padding: 20px;
             text-align: left;
             color: navy;
             background-color: pink;
+            font-size: 130%;
+            font-style: italic; 
+            font-family: Georgia, Times, serif;
+            margin: 5px 5px 5px 5px;
+            border-top: 3px solid rgb(184, 14, 99);
+            border-bottom: 3px solid rgb(184, 14, 99);
+            border-left: 3px solid rgb(184, 14, 99);
+            border-right: 3px solid rgb(184, 14, 99);
+            border-radius: 20px;
         }
 
+        /* Higher Eduction & School */
+        p {
+            padding: 5px;
+            text-align: left;
+            color:black;
+            background-color: navy ;
+            border: 3px solid navy;
+            margin: 0px 0px 10px 10px;
+            border-radius: 40px;
+        } 
+    
+       .College  {
+
+            text-align: left;
+            font-size: 100%;
+            font-style: bold;
+            font-family: Georgia, Times, serif; 
+            margin: 0px 0px 10px 10px;
+            border: 3px solid navy;
+            padding: 10px;
+            background-color:#50d07d;
+            font-size: 1.5em;
+        }
+       
+        .School {
+
+            text-align: left;
+            font-size: 100%;
+            font-style: bold; 
+            font-family: "Times New Roman", Times, serif;
+            margin: 0px 0px 10px 10px;
+            border: 3px solid navy;
+            padding: 10px;
+            background-color: pink;
+            font-size: 1.5em;
+        }
+
+        /* The Experience   */
+        h2 {
+            padding: 10px;
+            text-align: center;
+            background-color: rgb(187, 65, 126);
+            border: 3px solid rgb(161, 48, 152);
+            width: 98%;
+            color: honeydew;
+            border-radius: 5px;
+            font-size: 130%;
+            font-style: italic; 
+            font-family: Georgia, Times, serif;
+
+        }
+
+        /* Top Ten */
+        h3 {
+            padding: 10px;
+            text-align: center;
+            background-color: rgb(161, 48, 152);
+            border: 3px solid rgb(216, 58, 163);
+            width: 98%;
+            color: honeydew;
+            border-radius: 5px;
+            font-size: 130%;
+            font-style: italic; 
+            font-family: Georgia, Times, serif;
+
+        }
+
+        
+        ul li {
+
+            border: 1px solid rgb(216, 58, 163);    
+            font-size: 120%;
+            font-style: italic; 
+            font-family: Georgia, Times, serif; 
+            background-color: rgb(216, 150, 210);
+            margin: 0px 0px 5px 5px;
+
+       
+        }
+
+        ol li {
+
+            border: 1px solid rgb(216, 58, 163);    
+            font-size: 120%;
+            font-style: italic; 
+            font-family: Georgia, Times, serif;
+            background-color: rgb(236, 147, 189);
+            margin: 0px 0px 5px 5px;
+            text-align: center;
+
+        }
         footer {
             color: wheat;
             background-color: navy;
             text-align: center;
             padding: 20px;
         }
-        ol {
-
-            color: navy;
         
-
-        }
 
